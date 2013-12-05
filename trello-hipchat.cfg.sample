@@ -25,7 +25,8 @@ TRELLO_TOKEN = "fill-in-as-explained-above-or-delete-if-not-needed"
 HIPCHAT_API_KEY = "fill-in-as-explained-above"
 
 # List here the Trello boards that you want to monitor, giving them a descriptive
-# name like in the example. Just visit the boards and get the IDs from the URL. 
+# name like in the example. The IDs may be abstracted from the /boards JSON response:
+# https://api.trello.com/1/members/[TRELLO_MEMBER_NAME]/boards?key=[TRELLO_API_KEY]&token=[TRELLO_API_TOKEN]
 BOARD_MAIN = "123456789123456789123456789"
 BOARD_BRAINSTORMING = "123456789123456789123456789123456789"
 
